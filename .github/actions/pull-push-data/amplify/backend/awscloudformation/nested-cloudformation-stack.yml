@@ -68,15 +68,15 @@
 				}
 			}
 		},
-		"authlekoartsstatsbe7624be": {
+		"authbgoonzstatsbe7624be": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-lekoartsstats-dev-210532-deployment/amplify-cfn-templates/auth/lekoartsstatsbe7624be-cloudformation-template.yml",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-bgoonzstats-dev-210532-deployment/amplify-cfn-templates/auth/bgoonzstatsbe7624be-cloudformation-template.yml",
 				"Parameters": {
-					"identityPoolName": "lekoartsstatsbe7624be_identitypool_be7624be",
+					"identityPoolName": "bgoonzstatsbe7624be_identitypool_be7624be",
 					"allowUnauthenticatedIdentities": false,
 					"resourceNameTruncated": "lekoarbe7624be",
-					"userPoolName": "lekoartsstatsbe7624be_userpool_be7624be",
+					"userPoolName": "bgoonzstatsbe7624be_userpool_be7624be",
 					"autoVerifiedAttributes": "email",
 					"mfaConfiguration": "OFF",
 					"mfaTypes": "SMS Text Message",
@@ -95,7 +95,7 @@
 					"userpoolClientLambdaRole": "lekoarbe7624be_userpoolclient_lambda_role",
 					"userpoolClientSetAttributes": false,
 					"sharedId": "be7624be",
-					"resourceName": "lekoartsstatsbe7624be",
+					"resourceName": "bgoonzstatsbe7624be",
 					"authSelections": "identityPoolAndUserPool",
 					"authRoleArn": {
 						"Fn::GetAtt": [
@@ -116,16 +116,16 @@
 				}
 			}
 		},
-		"apilekoartsstats": {
+		"apibgoonzstats": {
 			"Type": "AWS::CloudFormation::Stack",
 			"Properties": {
-				"TemplateURL": "https://s3.amazonaws.com/amplify-lekoartsstats-dev-210532-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"TemplateURL": "https://s3.amazonaws.com/amplify-bgoonzstats-dev-210532-deployment/amplify-cfn-templates/api/cloudformation-template.json",
 				"Parameters": {
 					"CreateAPIKey": 1,
-					"AppSyncApiName": "lekoartsstats",
+					"AppSyncApiName": "bgoonzstats",
 					"DynamoDBBillingMode": "PAY_PER_REQUEST",
 					"DynamoDBEnableServerSideEncryption": "false",
-					"S3DeploymentBucket": "amplify-lekoartsstats-dev-210532-deployment",
+					"S3DeploymentBucket": "amplify-bgoonzstats-dev-210532-deployment",
 					"S3DeploymentRootKey": "amplify-appsync-files/0d89d517070489533c43ee02b723da770bf569fe",
 					"env": "dev"
 				}
@@ -135,7 +135,7 @@
 			"DependsOn": [
 				"AuthRole",
 				"UnauthRole",
-				"authlekoartsstatsbe7624be"
+				"authbgoonzstatsbe7624be"
 			],
 			"Type": "AWS::Lambda::Function",
 			"Properties": {
@@ -218,7 +218,7 @@
 				},
 				"idpId": {
 					"Fn::GetAtt": [
-						"authlekoartsstatsbe7624be",
+						"authbgoonzstatsbe7624be",
 						"Outputs.IdentityPoolId"
 					]
 				},

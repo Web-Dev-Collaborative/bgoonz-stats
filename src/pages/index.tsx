@@ -20,7 +20,7 @@ const Index: React.FC<PageProps<IHomepageDataProps>> = ({ data: { site, github, 
   const modes = useDarkMode(false, {
     classNameDark: 'dark',
     classNameLight: 'light',
-    storageKey: 'lekoarts-stats-modes',
+    storageKey: 'bgoonz-stats-modes',
   })
   const normalizedGithubData = normalizeGithub(github.nodes, 'name', 'name')
   const meta = site.siteMetadata
@@ -98,7 +98,7 @@ const Index: React.FC<PageProps<IHomepageDataProps>> = ({ data: { site, github, 
       <footer className={styles.footer}>
         &copy; {new Date().getFullYear()} by{' '}
         <a className={linkStyle} href={meta.homepage}>
-          LekoArts
+          bgoonz
         </a>
         . All rights reserved. <br />
         Follow me on{' '}

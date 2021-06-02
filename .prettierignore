@@ -3,7 +3,7 @@ amplify
 .cache
 node_modules
 public
-!/amplify/backend/api/lekoartsstats/schema.graphql
+!/amplify/backend/api/bgoonzstats/schema.graphql
 .github/actions/pull-push-data/src/aws-exports.js
 .github/actions/pull-push-data/src/graphql/mutations.js
 .github/actions/pull-push-data/src/graphql/queries.js

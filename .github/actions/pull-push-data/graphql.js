@@ -2,7 +2,7 @@ const gql = require('graphql-tag')
 
 const GITHUB_QUERY = `
 query {
-  search(query: "user:LekoArts topic:lekoarts-gatsby-themes", type: REPOSITORY, first: 50) {
+  search(query: "user:bgoonz topic:bgoonz-gatsby-themes", type: REPOSITORY, first: 50) {
     nodes {
       ... on Repository {
         stargazers {

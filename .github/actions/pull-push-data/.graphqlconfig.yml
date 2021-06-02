@@ -1,6 +1,6 @@
 projects:
-  lekoartsstats:
-    schemaPath: amplify/backend/api/lekoartsstats/build/schema.graphql
+  bgoonzstats:
+    schemaPath: amplify/backend/api/bgoonzstats/build/schema.graphql
     includes:
       - src/graphql/**/*.js
     excludes:

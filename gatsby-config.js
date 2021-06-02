@@ -2,15 +2,15 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: 'LekoArts Statistics',
-    url: 'https://lekoarts-stats.netlify.app',
-    repo: 'https://github.com/LekoArts/lekoarts-stats',
-    github: 'https://www.github.com/LekoArts',
-    twitter: 'https://www.twitter.com/lekoarts_de',
-    homepage: 'https://www.lekoarts.de',
+    title: 'bgoonz Statistics',
+    url: 'https://bgoonz-stats.netlify.app',
+    repo: 'https://github.com/bgoonz/bgoonz-stats',
+    github: 'https://www.github.com/bgoonz',
+    twitter: 'https://www.twitter.com/bgoonz_de',
+    homepage: 'https://www.bgoonz.de',
     image: '/social.png',
-    author: '@lekoarts_de',
-    description: `Dashboard of LekoArts' GitHub and Twitter statistics over time, visualized with fancy graphs.`,
+    author: '@bgoonz_de',
+    description: `Dashboard of bgoonz' GitHub and Twitter statistics over time, visualized with fancy graphs.`,
   },
   flags: {
     DEV_SSR: false,

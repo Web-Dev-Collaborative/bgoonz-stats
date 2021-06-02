@@ -304,7 +304,7 @@ Resources:
   # Always created
     Type: AWS::Cognito::IdentityPool
     Properties: 
-      IdentityPoolName: !If [ShouldNotCreateEnvResources, 'lekoartsstatsbe7624be_identitypool_be7624be', !Join ['',['lekoartsstatsbe7624be_identitypool_be7624be', '__', !Ref env]]]
+      IdentityPoolName: !If [ShouldNotCreateEnvResources, 'bgoonzstatsbe7624be_identitypool_be7624be', !Join ['',['bgoonzstatsbe7624be_identitypool_be7624be', '__', !Ref env]]]
       
       CognitoIdentityProviders:
         - ClientId:  !Ref UserPoolClient

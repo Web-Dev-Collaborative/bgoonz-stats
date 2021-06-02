@@ -12,7 +12,7 @@ describe('flatten', () => {
         forks: 154,
         name: 'gatsby-starter-minimal-blog',
         stars: 517,
-        url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog',
+        url: 'https://github.com/bgoonz/gatsby-starter-minimal-blog',
       },
     ]
 
@@ -29,14 +29,14 @@ describe('flatten', () => {
       forks: 243,
       name: 'gatsby-themes',
       stars: 745,
-      url: 'https://github.com/LekoArts/gatsby-themes',
+      url: 'https://github.com/bgoonz/gatsby-themes',
     })
     expect(flat[length - 1]).toStrictEqual({
       datetime: '2020-07-18',
       forks: 18,
       name: 'gatsby-starter-portfolio-bella',
       stars: 113,
-      url: 'https://github.com/LekoArts/gatsby-starter-portfolio-bella',
+      url: 'https://github.com/bgoonz/gatsby-starter-portfolio-bella',
     })
   })
 })
@@ -53,13 +53,13 @@ describe('constructShape', () => {
         datetime: '2020-07-17',
         forks: 154,
         stars: 517,
-        url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog',
+        url: 'https://github.com/bgoonz/gatsby-starter-minimal-blog',
       },
       {
         datetime: '2020-07-18',
         forks: 153,
         stars: 517,
-        url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog',
+        url: 'https://github.com/bgoonz/gatsby-starter-minimal-blog',
       },
     ])
   })
@@ -75,13 +75,13 @@ describe('normalizeGithub', () => {
         datetime: '2020-07-17',
         forks: 154,
         stars: 517,
-        url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog',
+        url: 'https://github.com/bgoonz/gatsby-starter-minimal-blog',
       },
       {
         datetime: '2020-07-18',
         forks: 153,
         stars: 517,
-        url: 'https://github.com/LekoArts/gatsby-starter-minimal-blog',
+        url: 'https://github.com/bgoonz/gatsby-starter-minimal-blog',
       },
     ])
   })

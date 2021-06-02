@@ -1,8 +1,8 @@
 {
-  "name": "lekoarts-stats",
+  "name": "bgoonz-stats",
   "version": "1.0.0",
   "private": true,
-  "author": "LekoArts <hello@lekoarts.de> (@lekoarts_de)",
+  "author": "bgoonz <hello@bgoonz.de> (@bgoonz_de)",
   "main": "index.js",
   "license": "MIT",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-    "AppSyncApiName": "lekoartsstats",
+    "AppSyncApiName": "bgoonzstats",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": "false"
 }

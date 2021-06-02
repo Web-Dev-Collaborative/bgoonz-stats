@@ -1,25 +1,25 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "amplify-lekoartsstats-dev-210532-authRole",
-			"UnauthRoleArn": "arn:aws:iam::083913690447:role/amplify-lekoartsstats-dev-210532-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::083913690447:role/amplify-lekoartsstats-dev-210532-authRole",
+			"AuthRoleName": "amplify-bgoonzstats-dev-210532-authRole",
+			"UnauthRoleArn": "arn:aws:iam::083913690447:role/amplify-bgoonzstats-dev-210532-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::083913690447:role/amplify-bgoonzstats-dev-210532-authRole",
 			"Region": "eu-central-1",
-			"DeploymentBucketName": "amplify-lekoartsstats-dev-210532-deployment",
-			"UnauthRoleName": "amplify-lekoartsstats-dev-210532-unauthRole",
-			"StackName": "amplify-lekoartsstats-dev-210532",
-			"StackId": "arn:aws:cloudformation:eu-central-1:083913690447:stack/amplify-lekoartsstats-dev-210532/38622f00-97a8-11ea-a931-0264b9b54242",
+			"DeploymentBucketName": "amplify-bgoonzstats-dev-210532-deployment",
+			"UnauthRoleName": "amplify-bgoonzstats-dev-210532-unauthRole",
+			"StackName": "amplify-bgoonzstats-dev-210532",
+			"StackId": "arn:aws:cloudformation:eu-central-1:083913690447:stack/amplify-bgoonzstats-dev-210532/38622f00-97a8-11ea-a931-0264b9b54242",
 			"AmplifyAppId": "d188p5d5q15rqg"
 		}
 	},
 	"auth": {
-		"lekoartsstatsbe7624be": {
+		"bgoonzstatsbe7624be": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": [],
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-lekoartsstats-dev-210532-deployment/amplify-cfn-templates/auth/lekoartsstatsbe7624be-cloudformation-template.yml",
-				"logicalId": "authlekoartsstatsbe7624be"
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-bgoonzstats-dev-210532-deployment/amplify-cfn-templates/auth/bgoonzstatsbe7624be-cloudformation-template.yml",
+				"logicalId": "authbgoonzstatsbe7624be"
 			},
 			"lastPushTimeStamp": "2020-05-25T15:50:47.416Z",
 			"output": {
@@ -28,14 +28,14 @@
 				"AppClientIDWeb": "5cap2llpkchnoa4f992mns2nt7",
 				"AppClientID": "3sobd61nj8vpvaqhvfq8tdmk3v",
 				"IdentityPoolId": "eu-central-1:40ec680f-94e0-4538-9245-7d7fea918794",
-				"IdentityPoolName": "lekoartsstatsbe7624be_identitypool_be7624be__dev",
-				"UserPoolName": "lekoartsstatsbe7624be_userpool_be7624be"
+				"IdentityPoolName": "bgoonzstatsbe7624be_identitypool_be7624be__dev",
+				"UserPoolName": "bgoonzstatsbe7624be_userpool_be7624be"
 			},
 			"lastPushDirHash": "j8jPtuewiQVd7/Hcefb5pfQeNw0="
 		}
 	},
 	"api": {
-		"lekoartsstats": {
+		"bgoonzstats": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
@@ -44,7 +44,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "API_KEY",
 						"apiKeyConfig": {
-							"description": "LekoArts Stats",
+							"description": "bgoonz Stats",
 							"apiKeyExpirationDays": "365"
 						}
 					}
@@ -54,8 +54,8 @@
 				"GraphQLAPIKeyOutput": "da2-lf75c66tkjemfgpl745dkz6xom"
 			},
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/amplify-lekoartsstats-dev-210532-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-				"logicalId": "apilekoartsstats"
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-bgoonzstats-dev-210532-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apibgoonzstats"
 			},
 			"lastPushTimeStamp": "2020-05-25T15:50:48.997Z",
 			"lastPushDirHash": "dlV5gPxwJYta2cVoSNWPG3HUvhA="

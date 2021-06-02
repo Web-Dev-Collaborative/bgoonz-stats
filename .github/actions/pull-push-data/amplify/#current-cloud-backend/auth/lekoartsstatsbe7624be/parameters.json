@@ -1,8 +1,8 @@
 {
-  "identityPoolName": "lekoartsstatsbe7624be_identitypool_be7624be",
+  "identityPoolName": "bgoonzstatsbe7624be_identitypool_be7624be",
   "allowUnauthenticatedIdentities": false,
   "resourceNameTruncated": "lekoarbe7624be",
-  "userPoolName": "lekoartsstatsbe7624be_userpool_be7624be",
+  "userPoolName": "bgoonzstatsbe7624be_userpool_be7624be",
   "autoVerifiedAttributes": ["email"],
   "mfaConfiguration": "OFF",
   "mfaTypes": ["SMS Text Message"],
@@ -21,7 +21,7 @@
   "userpoolClientLambdaRole": "lekoarbe7624be_userpoolclient_lambda_role",
   "userpoolClientSetAttributes": false,
   "sharedId": "be7624be",
-  "resourceName": "lekoartsstatsbe7624be",
+  "resourceName": "bgoonzstatsbe7624be",
   "authSelections": "identityPoolAndUserPool",
   "authRoleArn": {
     "Fn::GetAtt": ["AuthRole", "Arn"]
